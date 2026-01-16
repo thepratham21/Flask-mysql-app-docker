@@ -32,5 +32,5 @@ visit: http://localhost:5000
 ```
 
 ## Architecture Diagram
-![Flask MySQL Docker Architecture](diagram/architecture.png)
+![Flask MySQL Docker Architecture](diagrams/architecture.png)
 
