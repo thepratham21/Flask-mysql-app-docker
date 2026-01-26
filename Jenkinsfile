@@ -11,6 +11,10 @@ pipeline {
             }
         }
 
+        stage("Trivy File System Scan"){
+            sh "trivy fs . -o results.json"
+        }
+
         stage("Build") {
             steps {
                 sh "docker build -t flask-mysql-app-image ."
